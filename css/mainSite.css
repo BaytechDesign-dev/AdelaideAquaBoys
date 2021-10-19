@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+html,body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+body {
+	background-image: url("../images/Background.jpg"); 
+	font-family: "luckiest Guy";
+}
+
+h1,h2{
+	color: #fff200;
+	line-height: 1.5;
+}
+
+h3{
+	color: #fff;
+}
+
+#ourTeam{
+	margin: 1rem;
+	padding: 2rem;
+	background: rgba(149,180,243,0.3);
+	border-style: outset;
+	border-radius: 50px;
+}
+
+#ourTeam img{
+	width: 350px;
+	margin: 1.5rem;
+}
+
+#about{
+	margin: 1rem ;
+	padding: 2rem;
+	background: rgba(149,180,243,0.3);
+	border-style: outset;
+	border-radius: 50px;
+}
+
+.fa-facebook-square{
+	
+}
+
+.jumbo{
+	background-color: #000;
+	
+}
+
+.jumbo img{
+	height: auto;
+}
+
+.servicesImage{
+	width: 100%;
+	height: auto;
+}
+
+.carousel{
+    width: 100%;
+    margin: auto;
+}
+
+ .carousel-inner > .carousel-item > img { 
+	 width:100%; height:auto; 
+}
+/* On screens that are 1200px or less (Tablets)*/
+@media screen and (max-width: 1200px) {
+	
+}
+
+/* On screens that are 600px or less (mobile phones)*/
+@media screen and (max-width: 768px) {
+	
+}

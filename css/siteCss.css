@@ -1,0 +1,101 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Large Screens */
+body {
+	background-image: url("../images/Background.jpg"); 
+	font-family: "luckiest Guy";
+}
+
+h1,h2{
+	color: #fff200;
+	line-height: 1.5;
+}
+
+h3{
+	color: #fff;
+}
+
+#centerTextSmall{
+	display: none;
+}
+
+#logoWhite{
+	display:none;
+}
+
+#AABGuy3{
+	width: 240px;
+	height: 240px;
+}
+
+#mainVideo {
+	max-width: 100%;
+	height:auto;
+	background: #000; 
+  	padding: 9px;
+  	border: 12px outset #0566ad;
+}
+
+#topIndexRow{
+	text-align: center;
+}
+
+#contact{
+	padding: 3rem;
+}
+
+/* On screens that are 1200px or less*/
+@media screen and (max-width: 1200px) {
+	
+	
+	#logoWhite{
+		display: block;
+		margin: auto;
+	}
+}
+
+/* On screens that are 600px or less*/
+@media screen and (max-width: 768px) {
+	
+	h1{
+		margin: 2rem;
+		/*transform: rotate(-20deg);*/
+		transition: width 2s, height 2s, transform 2s;
+		transform: rotate(-20deg);
+	}
+	
+	h1:hover {
+ 		
+ 		transform: rotate(360deg);
+	}
+	
+	#mainMobileBox{
+		padding-top: 10rem;
+	}
+	#centerTextSmall{
+		display:block;
+		
+	}
+	
+	#mainVideo{
+		display: none;
+	}
+	
+	#underConsHeaderLarge{
+	display: none;	
+	}
+	
+	#AABGuy3{
+		display: none;
+	}
+	
+	#centerPannelLarge{
+		display: none;
+	}
+	
+	#logoWhite{
+		display: block;
+		margin: auto;
+	}
+}
