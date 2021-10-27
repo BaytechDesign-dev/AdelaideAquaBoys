@@ -1,4 +1,4 @@
-  
+
 function displayPat() {
   var x = document.getElementById("pat");
   var y = document.getElementById("matt");
