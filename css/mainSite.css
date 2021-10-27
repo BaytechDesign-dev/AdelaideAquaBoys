@@ -81,5 +81,7 @@ h3{
 
 /* On screens that are 600px or less (mobile phones)*/
 @media screen and (max-width: 768px) {
-	
+	#titleVid{
+		display: none;
+	}
 }
