@@ -72,22 +72,18 @@ h3{
  .carousel-inner > .carousel-item > img { 
 	 width:100%; height:auto; 
 }
-
-
-
-/*
-  Crew Profiles
-*/
-
-@media only screen and (min-width: 844px) and (orientation: landscape) { 
-	#titlePic {
-		display: none;
-	}
-}
+/* Media Queries */
 
 /* On screens that are 1200px or less (Tablets)*/
 @media screen and (max-width: 1200px) {
 	
+}
+
+/* iPhone 12 Landscape*/
+@media only screen and (min-width: 844px) and (orientation: landscape) { 
+	#titlePic {
+		display: none;
+	}
 }
 
 /* On screens that are 600px or less (mobile phones)*/
