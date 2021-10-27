@@ -48,7 +48,7 @@ h3{
 
 .jumbo{
 	background-color: #000;
-	
+	margin-bottom: 0;
 }
 
 .jumbo img{
@@ -68,6 +68,12 @@ h3{
  .carousel-inner > .carousel-item > img { 
 	 width:100%; height:auto; 
 }
+
+/*
+  Crew Profiles
+*/
+
+
 /* On screens that are 1200px or less (Tablets)*/
 @media screen and (max-width: 1200px) {
 	
