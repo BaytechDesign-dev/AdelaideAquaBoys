@@ -79,6 +79,11 @@ h3{
   Crew Profiles
 */
 
+@media only screen and (min-width: 844px) and (orientation: landscape) { 
+	#titlePic {
+		display: none;
+	}
+}
 
 /* On screens that are 1200px or less (Tablets)*/
 @media screen and (max-width: 1200px) {
@@ -90,8 +95,8 @@ h3{
 	#titleVid{
 		display: none;
 	}
-	
 	#titlePic {
 		display: block;
 	}
+	
 }
