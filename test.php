@@ -68,7 +68,7 @@
       if (isset($_POST['Email'])) {
 
           // EDIT THE 2 LINES BELOW AS REQUIRED
-          $email_to = "dev@baytechdesign.com.au"; //patrick@adelaideaquaboys.com.au
+          $email_to = "patrick@adelaideaquaboys.com.au";
           $email_subject = "New Message From Website";
 
           function problem($error)
@@ -130,7 +130,7 @@
           $headers = 'From: ' . $email . "\r\n" .
               'Reply-To: ' . $email . "\r\n" .
               'X-Mailer: PHP/' . phpversion();
-          mail($email_to, $email_subject, $email_message, $headers);
+          @mail($email_to, $email_subject, $email_message, $headers);
       ?>
 
         <!-- include your success message below -->
