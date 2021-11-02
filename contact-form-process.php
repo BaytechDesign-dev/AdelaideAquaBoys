@@ -58,6 +58,10 @@
         <li class="nav-item"> 
 	      <a class="nav-link" href="crew.html">Crew</a> 
 		</li>
+		
+		<li class="nav-item"> 
+	      <a class="nav-link" href="crew.html">Reviews</a> 
+		</li>
 		  
       </ul>
 		
@@ -134,8 +138,20 @@
       ?>
 
         <!-- include your success message below -->
+      <div class="container-fluid">
+          <div class="row content">
+            <div class="col-sm-2 sidenav"> </div>
+            <div class="col-sm-8 text-center">
+              <h1 class="text-center">Thank You</h1>
+				<p>Thanks <?= $name;?>,we will be in touch with you very soon.</p>
+            <div class="col-sm-2 sidenav">
+            <div class="well"> </div>
+            <div class="well"> </div>
+            </div>
+          </div>
+        </div>
 
-        Thank you for contacting us. We will be in touch with you very soon.
+        
 
     <?php
     }
