@@ -60,7 +60,7 @@
 		</li>
 		
 		<li class="nav-item"> 
-	      <a class="nav-link" href="crew.html">Reviews</a> 
+	      <a class="nav-link" href="reviews.php">Reviews</a> 
 		</li>
 		  
       </ul>
